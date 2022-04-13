@@ -1,0 +1,5 @@
+[build]
+
+NETLIFY_BUILD_DEBUG = 'true'
+
+RANDOM_BS = "It shows up"
