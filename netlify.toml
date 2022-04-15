@@ -1,8 +1,0 @@
-[build]
-
-command = "npm run build"
-
-[context.deploy-preview]
-
- [context.production]
-    command = "env"
