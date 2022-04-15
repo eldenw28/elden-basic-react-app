@@ -8,4 +8,4 @@ command = "npm run build"
 [[headers]]
     for = "/*"
     [headers.values]
-    toml-header: Header created using .toml file
+    toml-header = Header created using .toml file
