@@ -1,0 +1,3 @@
+[build]
+[context.deploy-previews]
+command = "npm run build"
