@@ -1,3 +1,11 @@
 [build]
+[context.main]
+command = "npm run build && env && $NETLIFY_VERBOSE = "true""
+
 [context.deploy-previews]
 command = "npm run build"
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+    toml-header = "Header created using .toml file"
