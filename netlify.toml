@@ -6,6 +6,6 @@ command = "npm run build && env"
 command = "npm run build"
 
 [[headers]]
-    for = "*"
+    for = "/*"
     [headers.values]
-    toml-header = "Header created using .toml file"
+    toml-header: Header created using .toml file
