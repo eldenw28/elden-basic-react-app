@@ -1,6 +1,6 @@
 [build]
 [context.main]
-command = "npm run build && env && $NETLIFY_VERBOSE = "true""
+command = "npm run build && env"
 
 [context.deploy-previews]
 command = "npm run build"
