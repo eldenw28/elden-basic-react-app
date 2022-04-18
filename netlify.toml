@@ -1,0 +1,17 @@
+[build]
+
+[context.main.environment]
+ELDEN_ENV_01 = "Elden"
+ELDEN_ENV_02 = "Williams"
+
+[context.testing.environment]
+ELDEN_ENV_03 = "Is the"
+ELDEN_ENV_04 = "Greatest"
+
+[context.deploy-preview.environment]
+command = "npm run build"
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+    toml-header = "Header created using .toml file"
