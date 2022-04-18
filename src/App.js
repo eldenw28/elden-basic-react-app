@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <h1>Deploy-previews branch</h1>
+        <h1>Hello, Pull Request!</h1>
       </header>
     </div>
   );
