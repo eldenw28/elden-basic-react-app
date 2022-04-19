@@ -21,3 +21,7 @@ ELDEN_ENV_04 = "Greatest"
 #    from = "/*"
 #    to = "/"
 #   status = 200
+
+[[edge_functions]]
+path = "/test"
+function = "hello"
